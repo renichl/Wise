@@ -34,7 +34,7 @@ public class App {
                 System.out.println(lastId + "번 명언이 등록 되었습니다");
                 lastId++;
             } else if (command.equals("목록")) {
-                System.out.printf("번호 / 작가 / 명언");
+                System.out.println("번호 / 작가 / 명언");
                 System.out.println("----------------------");
 
                 for (int i = 0; i < wiseSayingList.size(); i++) {
