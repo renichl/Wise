@@ -31,7 +31,7 @@ public class App {
                 WiseSaying ws = new WiseSaying(lastId, content, author);
                 wiseSayingList.add(ws);
 
-                System.out.println(lastId + "번 명언이 등록 되었습니다");
+                System.out.printf("%d번 명언이 등록 되었습니다\n",lastId);
                 lastId++;
             } else if (command.equals("목록")) {
                 System.out.println("번호 / 작가 / 명언");
