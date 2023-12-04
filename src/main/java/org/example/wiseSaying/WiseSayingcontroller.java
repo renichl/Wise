@@ -37,5 +37,8 @@ public class WiseSayingcontroller {
             System.out.println(ws.getLastId() + "/" + ws.getAuthor() + "/" + ws.getContent());
         }
     }
+    public void delete(){
+
+    }
 
 }
