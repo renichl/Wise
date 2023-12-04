@@ -37,9 +37,7 @@ public class App {
                 System.out.println("번호 / 작가 / 명언");
                 System.out.println("----------------------");
 
-                for (int i = 0; i < wiseSayingList.size(); i++) {
-                    WiseSaying ws = wiseSayingList.get(i);
-
+                for (WiseSaying ws : wiseSayingList) {
                     System.out.println(ws.getLastId() + "/" + ws.getAuthor() + "/" + ws.getContent());
                 }
             }
